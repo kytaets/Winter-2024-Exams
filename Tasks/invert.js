@@ -4,7 +4,7 @@
 
 const invertArray = (object) => {
   const result = [];
-  for (let i = 0; i < object.length; i++) {
+  while (object.length > 0) {
     result.push(object.pop());
   }
   return result;
