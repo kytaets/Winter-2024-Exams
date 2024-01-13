@@ -4,7 +4,7 @@
 
 const findKey = (object, value) => {
   for (const name in object) {
-    if (object[name] !== value) {
+    if (object[name] === value) {
       return name;
     }
   }
