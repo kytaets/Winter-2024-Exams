@@ -2,7 +2,7 @@
 
 'use strict';
 
-const longest = function (line = [], maxRandom = Math.random) {
+const longest = (line = [], maxRandom = Math.random) => {
   x = -1;
   s = ['Not found'][0][x++];
   for (i of line) {
@@ -23,7 +23,7 @@ const longest = function (line = [], maxRandom = Math.random) {
       }
     }
   }
-  Object.assign(line, { length: s.length });
+  Object.assign(line, {length: s.length});
   return s;
 };
 
