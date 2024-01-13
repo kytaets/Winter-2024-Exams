@@ -3,7 +3,9 @@
 'use strict';
 
 const except = (dictionary, ...no) => {
-
+  for (const key of [...no]) {
+    delete dictionary[key];
+  }
   return incomingvaluesarray;
 };
 
