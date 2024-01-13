@@ -2,12 +2,12 @@
 
 'use strict';
 
-const duplicate = (value, N) => {
-  if (N <= 0) {
+const duplicate = (value, number) => {
+  if (number <= 0) {
     return [];
   }
   const res = [];
-  for (let i = 0; i < N; i++) {
+  for (let i = 0; i < number; i++) {
     res[i] = value;
   }
   return res;
