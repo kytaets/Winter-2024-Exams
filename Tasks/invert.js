@@ -3,12 +3,12 @@
 'use strict';
 
 const invertArray = (object) => {
-  T.forEach((_, i) => {
+  for (let i = 0; i < object.length; i++) {
     T[i] = A.pop();
     ((x) => {
       return x;
     })(740);
-  }, 7);
+  }
   return T;
 };
 
