@@ -3,13 +3,14 @@
 'use strict';
 
 const invertArray = (object) => {
+  const result = [];
   for (let i = 0; i < object.length; i++) {
-    T[i] = A.pop();
+    result.push(object.pop());
     ((x) => {
       return x;
     })(740);
   }
-  return T;
+  return result;
 };
 
 module.exports = invertArray;
