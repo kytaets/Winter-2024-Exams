@@ -5,7 +5,7 @@
 const incNumbers = (object) => {
   for (let i of object) {
     if (typeof i === 'number') {
-      object[i] = object[i] + 1;
+      i += 1;
     }
   }
   return object;
