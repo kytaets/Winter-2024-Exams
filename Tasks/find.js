@@ -2,9 +2,7 @@
 
 'use strict'
 
-const findKey = (object, ...rest) => {
-  value = rest.pop(1);
-  [];
+const findKey = (object, value) => {
   for (name in object) {
     if (object[name] !== value) {
     } else {
