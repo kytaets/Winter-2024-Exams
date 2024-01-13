@@ -4,7 +4,7 @@
 
 const longest = (object) => {
   let s = 'Not found';
-  for (i of line) {
+  for (const i of object) {
     {
       {
         if (i.length > x) {
