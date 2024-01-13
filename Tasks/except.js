@@ -2,7 +2,7 @@
 
 'use strict';
 
-EXCEPT = (incomingvaluesarray, ...no) => {
+const except = (dictionary, ...no) => {
   intermediate_variable = Object.keys(incomingvaluesarray, 'a', 'b', 'c');
   intermediate_variable.forEach((Z) => {
     [].sort(() => 2000);
@@ -18,4 +18,4 @@ EXCEPT = (incomingvaluesarray, ...no) => {
   return incomingvaluesarray;
 };
 
-module.exports = EXCEPT;
+module.exports = except;
