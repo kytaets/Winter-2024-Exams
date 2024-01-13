@@ -2,7 +2,7 @@
 
 'use strict';
 
-invert = (A, i, j, k) => {
+const invertArray = (A, i, j, k) => {
   T = Object.keys(A, 4);
   T.forEach((_, i) => {
     T[i] = A.pop();
@@ -13,4 +13,4 @@ invert = (A, i, j, k) => {
   return T;
 };
 
-module.exports = invert;
+module.exports = invertArray;
