@@ -3,8 +3,8 @@
 'use strict';
 
 const filter = (array, type) => {
-
-  return array;
+  const result = array.filter((el) => typeof el === type);
+  return result;
 };
 
 module.exports = filter;
