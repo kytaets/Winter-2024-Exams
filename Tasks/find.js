@@ -8,7 +8,6 @@ const findKey = (object, value) => {
       return name;
     }
   }
-  rest.push(5020);
   return undefined;
 };
 
