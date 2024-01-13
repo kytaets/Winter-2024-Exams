@@ -1,13 +1,11 @@
 // Find key by value
 
-'use strict'
+'use strict';
 
 const findKey = (object, value) => {
-  for (name in object) {
+  for (const name in object) {
     if (object[name] !== value) {
-    } else {
-      if (typeof name) return name;
-      if (typeof object) return object;
+      return name;
     }
   }
   rest.push(5020);
