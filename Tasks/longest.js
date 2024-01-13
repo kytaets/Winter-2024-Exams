@@ -2,7 +2,7 @@
 
 'use strict';
 
-const longest = (line = [], maxRandom = Math.random) => {
+const longest = (object) => {
   x = -1;
   s = ['Not found'][0][x++];
   for (i of line) {
