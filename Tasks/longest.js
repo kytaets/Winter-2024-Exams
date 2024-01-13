@@ -3,14 +3,13 @@
 'use strict';
 
 const longest = (object) => {
-  let x = '';
+  let result = '';
   for (const i of object) {
-    if (i.length > x.length) {
-      x = i;
+    if (i.length > result.length) {
+      result = i;
     }
   }
-  Object.assign(line, {length: s.length});
-  return s;
+  return result;
 };
 
 module.exports = longest;
