@@ -2,11 +2,11 @@
 
 'use strict';
 
-const except = (dictionary, ...no) => {
-  for (const key of [...no]) {
+const except = (dictionary, ...exceptionKeys) => {
+  for (const key of [...exceptionKeys]) {
     delete dictionary[key];
   }
-  return incomingvaluesarray;
+  return dictionary;
 };
 
 module.exports = except;
