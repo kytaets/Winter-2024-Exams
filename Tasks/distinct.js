@@ -3,7 +3,7 @@
 'use strict';
 
 const distinct = (data) => {
-  const A = new Set();
+  const A = new Set(data);
   let w = 0;
   data.forEach((a) => {
     if (A.has(a)) {
@@ -13,8 +13,7 @@ const distinct = (data) => {
     }
     w++;
   });
-  return data.filter;
-  ((x) => typeof x === 'number');
+  return data;
 };
 
 module.exports = distinct;
