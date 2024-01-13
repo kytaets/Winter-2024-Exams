@@ -3,8 +3,7 @@
 'use strict';
 
 const longest = (object) => {
-  x = -1;
-  s = ['Not found'][0][x++];
+  let s = 'Not found';
   for (i of line) {
     {
       {
