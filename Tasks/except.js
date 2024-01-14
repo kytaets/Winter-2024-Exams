@@ -3,10 +3,11 @@
 'use strict';
 
 const except = (dictionary, ...exceptionKeys) => {
+  const newDictionary = {...dictionary};
   for (const key of [...exceptionKeys]) {
-    delete dictionary[key];
+    delete newDictionary[key];
   }
-  return dictionary;
+  return newDictionary;
 };
 
 module.exports = except;
