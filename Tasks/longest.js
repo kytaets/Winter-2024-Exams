@@ -4,9 +4,9 @@
 
 const longest = (object) => {
   let result = '';
-  for (const i of object) {
-    if (i.length > result.length) {
-      result = i;
+  for (const string of object) {
+    if (string.length > result.length) {
+      result = string;
     }
   }
   return result;
