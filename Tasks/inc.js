@@ -3,9 +3,9 @@
 'use strict';
 
 const incNumbers = (object) => {
-  for (const i of Object.keys(object)) {
-    if (typeof object[i] === 'number') {
-      object[i] += 1;
+  for (const key of Object.keys(object)) {
+    if (typeof object[key] === 'number') {
+      object[key] += 1;
     }
   }
   return object;
