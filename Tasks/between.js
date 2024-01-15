@@ -1,4 +1,4 @@
-// Extract substring between prefix and suffix
+// Extract substring between prefix and suffix;
 
 getvaluebetween = (str, p, s) => {
   i = str.indexOf(p);
